@@ -1,0 +1,72 @@
+body {
+  padding-top: 50px;
+}
+.content-container {
+  padding: 40px 15px;
+  text-align: center;
+}
+.loader {
+	display: none;
+}
+
+.form-container-inner {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);	
+}
+
+.fetchprices-stats, .coinstats-stats {
+	position: absolute;
+	bottom: 10px;
+}
+
+.fetchprices-stats {
+	right: 0px;
+}
+
+.coinstats-stats {
+	left: 0px;
+}
+
+.form-control-xlg, .bootstrap-select .btn {
+	height: calc(2.625em + 1.75rem + 3.5px);
+    padding: .875rem 1.97rem;
+    font-size: 1.97rem;
+    line-height: 2.6;
+    border-radius: .525rem;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+}
+
+.bootstrap-select .btn {
+	background: #faffec;
+}
+
+.show>.btn-light.dropdown-toggle {
+	background: #f4ffd6;
+}
+
+.dropdown-menu .bs-searchbox input {
+	width: 100% !important;
+}
+
+input.form-control-xlg {
+	min-width: 150px;
+	max-width: 350px;
+}
+
+select.form-control-xlg {
+	width: 180px;
+}
+
+#convertForm .equals {
+	font-size: 64px;
+}
+
+.singleRate {
+	padding:10px;
+	font-size: 32px;
+}
